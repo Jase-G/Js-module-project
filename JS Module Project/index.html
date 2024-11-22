@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Distance While At Light Speed Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <h1>Speed of Light Distance Calculator</h1>
+    <p>
+      <input type="number" id="time-inpt" /><select
+        name="distance-time-select"
+        id="dist-time-select"
+      >
+        <option value="Minutes">Minutes</option>
+        <option value="Hours">Hours</option>
+      </select>
+    </p>
+    <p><button class="button" id="calculate">Calculate Distance</button></p>
+    <p>
+      While at light speed for <span id="time-display">------</span>
+      <span id="time-unit-disp">------</span>, the following distance would have
+      been covered
+    </p>
+    <p id="answer-container"><span id="answer-display">------</span></p>
+    <p>
+      <button id="dark-mode">Dark Mode</button
+      ><button id="light-mode">Light Mode</button>
+    </p>
+    <hr />
+    <p id="shoutout">
+      Shoutout to Sachman who helped with the formulas and calculations.
+    </p>
+  </body>
+</html>

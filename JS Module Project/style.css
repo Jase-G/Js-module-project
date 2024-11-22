@@ -1,0 +1,63 @@
+body {
+  width: 500px;
+  margin: 0px auto;
+  font-family: "Fredoka", serif;
+  background-color: white;
+  padding: 30px 75px;
+  margin-top: 30px;
+  border-left: 50px solid #f6f6f6;
+  border-bottom: solid 30px #ececec;
+  border-right: 20px solid #e1e1e1;
+  border-top: 10px solid #d0d0d0;
+  border-radius: 30px;
+}
+
+html {
+  background-image: linear-gradient(to right, #f3904f, #3b4371);
+}
+
+input {
+  width: 100px;
+}
+
+#calculate {
+  margin-top: 30px;
+}
+
+#dark-mode {
+  margin-right: 30px;
+}
+
+#shoutout {
+  font-size: 12px;
+}
+
+input {
+  width: 150px;
+  margin-right: 10px;
+  background-color: #ececec;
+}
+
+select {
+  padding: 5px;
+  background-color: #ececec;
+}
+
+button {
+  padding: 7px;
+  border-radius: 15px;
+  background-color: #ececec;
+}
+
+#answer-display {
+  border: 3px solid lightgreen;
+  padding: 10px;
+  background-color: #ececec;
+}
+
+#answer-container {
+  padding-bottom: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: xx-large;
+}
